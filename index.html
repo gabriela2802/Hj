@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title id="titulo"></title>
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body onload="dataUser()">
+
+	<div class="wrapper">
+       <header class="mt-2">
+           <a href="me.html" id="fotome"></a>
+           <em><p class="text-center" id="profesion"></p></em>
+           <div class="mt-3">
+           </div>
+       </header>
+       <section class="text-justify">
+            <div class="col-md-12" id="bannerme">
+                <!-- Banner -->
+            </div>
+            <div class="col-md-12 mt-1">
+                <h5 class="bg-dark text-light"><i class="material-icons">account_box</i>&nbsp;Pérfil:</h5>
+                <p class="blockquote" id="perfil"></p>
+
+                <h5 class="bg-dark text-light"><i class="material-icons">done_all</i>&nbsp;Habilidades:</h5>
+                <dl class="row">
+                	<div class="col">
+                		<h6 class="text-center bg-success text-light"><i class="material-icons">mediation</i>&nbsp;Comunicativas</h6>
+                		<small><ul class="list-group col" id="comunicativas"></ul></small>
+                	</div>
+                	<div class="col">
+                		<h6 class="text-center bg-info"><i class="material-icons">dns</i>&nbsp;Gestión</h6>
+                		<small><ul class="list-group col" id="gestion"></ul></small>
+                	</div>
+                	<div class="col">
+                		<h6 class="text-center bg-primary text-light"><i class="material-icons">build</i>&nbsp;Técnicas</h6>
+                		<small><ul class="list-group col" id="tecnicas"></ul></small>
+                	</div>
+                </dl>
+                <h5 class="bg-dark text-light col-12"><i class="material-icons">sports_tennis</i>&nbsp;Hobbies:</h5>
+                <div class="row">
+                	<div class="col">
+                		<small><ul id="hobbies" class="list-group"></ul></small>
+                	</div>
+                	<div class="col">
+                		<img src="assets/img/equilibrio.gif" alt="" class="img-fluid">
+                	</div>
+                </div>
+            </div>
+
+       </section>
+       <footer class="text-right">
+           <h5 class="text-center text-info">Contacto:</h5>
+           <p class="text-right">
+               <i class="material-icons align-middle text-primary">contact_mail</i>&#09;<span class="align-baseline" id="correo"></span><br>
+               <i class="material-icons align-middle text-primary">contact_phone</i>&#09;<span class="align-baseline" id="telefono"></span>
+           </p>
+       </footer>
+    </div>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="assets/config.js"></script>
+</body>
+</html>
